@@ -17,12 +17,11 @@ body{
 }
 .btn{
   background-color: #5492ff;
-  height: 80px;
-  width: 80px;
+  height: 81px;
+  width: 81px;
   font-size: 32px;
   color: blue;
   margin-top: 15px;
-  margin-left: 11px;
 }
 .operacao{
   color: #ff6200;
