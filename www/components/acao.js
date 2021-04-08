@@ -7,7 +7,7 @@ function zd(){
   $(".display").val("");
 }
 
-$(document).on("click", ".d", function(){
+$(document).on("click", ".botao", function(){
   td += $(this).val();
   $(".display").val(td);
 });
