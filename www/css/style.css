@@ -1,27 +1,30 @@
 .navbar{
   background: #004bc4;
-  height: 80px;
+  height: 70px;
   width: 100%;
   justify-content: center;
 }
 .cal{
   color: #ff7300;
-  font-size: 52px;
+  font-size: 50px;
   text-shadow: 1px 0px 0px #ff6200, 
 -1px 0px 0px #ff6200, 
 0px 1px 0px #ff6200, 
 0px -1px 0px #ff6200;
+}
+.botao{
+  text-align: center;
 }
 body{
   background: #4085ff;
 }
 .btn{
   background-color: #5492ff;
-  height: 81px;
-  width: 81px;
+  height: 80px;
+  width: 80px;
   font-size: 32px;
   color: blue;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .operacao{
   color: #ff6200;
@@ -31,7 +34,7 @@ body{
 }
 
 .zero{
-  width: 170px;
+  width: 163px;
 }
 .btn:hover{
   background-color: #004bc4;
@@ -44,6 +47,12 @@ body{
 .apagar:hover{
   color: #ed4800;
 }
+.ponto{
+  font-size: 40px;
+}
+.ponto:hover{
+  font-size: 35px;
+}
 .display{
   color: #00143b;
   height: 90px;
@@ -51,7 +60,7 @@ body{
   font-size: 39px;
   background-color: #abc9ff;
 }
-.display:focus{
+.display:read-only{
   color: #00143b;
   background-color: #abc9ff;
 }
